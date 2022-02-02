@@ -1,0 +1,65 @@
+.navbar {
+	border: none;
+	background-color: lightgrey;
+}
+.container {
+	background-color: lightgrey;
+	margin: 0;
+	padding: 0;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid black;
+}
+
+.navbar-header button.navbar-toggle {
+	clear: both;
+}
+.navbar-brand {
+	font-size: 35px;
+	padding-left: 25px;
+}
+
+#nav-list a {
+	color: black;
+	text-align: center;
+	font-size: 1.5em;
+}
+#nav-list a:hover{
+	background-color: white;
+}
+.navbar-toggle {
+	border: 1px solid black;
+	margin-right: 25px;
+}
+li {
+	box-sizing: border-box;
+	width: 100%;
+}
+
+.menu-item {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display: block;
+	border: 1px solid black;
+}
+
+.row {
+	margin: 20px;
+}
+
+.content-box {
+	margin: 10px;
+	width: auto;
+	height: auto;
+	color: black;
+	background-color: lightgrey;
+	padding: 20px;
+
+	overflow: hidden;
+}
+.item-name {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
